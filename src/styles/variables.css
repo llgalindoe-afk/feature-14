@@ -1,0 +1,67 @@
+:root {
+  /* User-Defined Color Palette */
+  --color-palette-teal: #45b9ac;    /* Turquoise / Teal */
+  --color-palette-cream: #faede9;   /* Light Creamy Pink */
+  --color-palette-ochre: #e4a900;   /* Mustard / Ochre Gold */
+  --color-palette-mint: #d9f5e3;    /* Soft Mint Green */
+  --color-palette-blue: #1a4fd4;    /* Vibrant Royal Blue */
+
+  /* Semantic Mapping */
+  --color-black: #111111;
+  --color-black-80: rgba(17, 17, 17, 0.88);
+  --color-black-70: rgba(17, 17, 17, 0.7);
+  --color-black-50: rgba(17, 17, 17, 0.5);
+  --color-black-10: rgba(17, 17, 17, 0.08);
+  --color-black-05: rgba(17, 17, 17, 0.05);
+
+  --color-white: #ffffff;
+  --color-white-90: rgba(255, 255, 255, 0.9);
+  --color-white-70: rgba(255, 255, 255, 0.7);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-05: rgba(255, 255, 255, 0.05);
+
+  /* Primary Accent & Brand Identity */
+  --color-primary: var(--color-palette-blue);
+  --color-primary-light: rgba(26, 79, 212, 0.12);
+
+  /* Background Colors */
+  --color-bg-gray: #f3f3f3;
+  --color-bg-beige: var(--color-palette-cream);
+  --color-bg-beige-dark: #f0ddd7; /* slightly darker tint for borders */
+  --color-bg-cream: #fffdf9;
+  --color-bg-card: #ffffff;
+  --color-bg-mint: var(--color-palette-mint);
+
+  /* Typography */
+  --font-family: 'Helvetica Neue', Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  /* Border Radii */
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 28px;
+  --radius-xxl: 36px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 14px 28px rgba(17, 17, 17, 0.06);
+  --shadow-md: 0 22px 40px rgba(17, 17, 17, 0.08);
+  --shadow-lg: 0 28px 46px rgba(17, 17, 17, 0.12);
+
+  /* Transitions */
+  --transition-normal: all 0.18s ease;
+}
